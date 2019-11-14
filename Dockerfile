@@ -7,6 +7,7 @@ RUN apt update; \
 	apt install -y default-jdk; \
 	apt install jflex;
 
+RUN apt install -y graphviz;
 RUN apt install --reinstall make;
 
 WORKDIR /home/COMPILATION
